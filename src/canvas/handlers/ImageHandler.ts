@@ -184,8 +184,8 @@ class ImageHandler {
 			//     return new fabric.Image.filters.Gamma(other);
 			// } else if (type === 'kodachrome') {
 			//     return new fabric.Image.filters.Kodachrome();
-		} else if (type === 'blackwhite') {
-			return new fabric.Color.toBlackWhite(other);
+			// } else if (type === 'blackwhite') {
+			// 	return new fabric.Color.toBlackWhite(other);
 		} else if (type === 'blend-image') {
 			return new fabric.Image.filters.BlendImage(other);
 			// } else if (type === 'hue') {

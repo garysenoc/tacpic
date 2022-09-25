@@ -1,4 +1,4 @@
 {
-    "mode": "file",
-    "out": "docs/docs"
+	"mode": "file",
+	"out": "build/docs"
 }

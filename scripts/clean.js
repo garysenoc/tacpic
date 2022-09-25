@@ -1,6 +1,6 @@
 const del = require('del');
 const fs = require('fs-extra');
 
-del.sync(['dist/**', 'lib/**', 'docs/**']);
+del.sync(['dist/**', 'lib/**', 'build/**']);
 
-fs.copySync('public', 'docs');
+fs.copySync('public', 'build');

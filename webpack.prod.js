@@ -28,7 +28,7 @@ module.exports = merge(baseConfig, {
 		app: ['core-js/stable', path.resolve(__dirname, 'src/index.tsx')],
 	},
 	output: {
-		path: path.resolve(__dirname, 'docs'),
+		path: path.resolve(__dirname, 'build'),
 		filename: 'js/[name].[chunkhash:16].js',
 		chunkFilename: 'js/[id].[chunkhash:16].js',
 		publicPath: './',

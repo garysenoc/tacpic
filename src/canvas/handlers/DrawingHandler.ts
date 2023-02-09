@@ -37,6 +37,7 @@ class DrawingHandler {
 		addPoint: (opt: FabricEvent) => {
 			const { e, absolutePointer } = opt;
 			const { x, y } = absolutePointer;
+
 			const circle = new fabric.Circle({
 				radius: 1,
 				fill: '#ffffff',
@@ -119,6 +120,7 @@ class DrawingHandler {
 		generate: (pointArray: FabricObject<fabric.Circle>[]) => {
 			const points = [] as any[];
 			const id = uuid();
+			// console.log(pointArray.length);
 			pointArray.forEach(point => {
 				points.push({
 					x: point.left,
@@ -126,9 +128,13 @@ class DrawingHandler {
 				});
 				this.handler.canvas.remove(point);
 			});
+
+			console.log('point array', pointArray);
 			this.handler.lineArray.forEach(line => {
 				this.handler.canvas.remove(line);
 			});
+			console.log('line array', this.handler.lineArray);
+			// console.log(this.handler.lineArray);
 			this.handler.canvas.remove(this.handler.activeShape).remove(this.handler.activeLine);
 			const option = {
 				id,

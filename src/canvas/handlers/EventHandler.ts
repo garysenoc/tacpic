@@ -297,16 +297,41 @@ class EventHandler {
 		}
 		if (e.code === code.ARROW_UP) {
 			activeObject.set('top', activeObject.top - 2);
+			const pattern = new fabric.Pattern({
+				source: './images/sample/pattern2.png',
+				repeat: 'repeat',
+			});
+
+			activeObject.set('fill', pattern);
 			activeObject.setCoords();
 			this.handler.canvas.renderAll();
 			return true;
 		} else if (e.code === code.ARROW_DOWN) {
-			activeObject.set('top', activeObject.top + 2);
+			activeObject.set('top', activeObject.top + 10);
+
+			const pattern = new fabric.Pattern({
+				source: './images/sample/pattern1.png',
+				repeat: 'repeat',
+			});
+
+			activeObject.set('fill', pattern);
+			// console.log(pattern);
+
+			//https://svgsilh.com/svg/2025984.svg
 			activeObject.setCoords();
+			// this.handler.canvas.renderAll();
 			this.handler.canvas.renderAll();
 			return true;
 		} else if (e.code === code.ARROW_LEFT) {
 			activeObject.set('left', activeObject.left - 2);
+			activeObject.set('top', activeObject.top + 10);
+
+			const pattern = new fabric.Pattern({
+				source: './images/sample/pattern3.png',
+				repeat: 'repeat',
+			});
+			activeObject.set('fill', pattern);
+
 			activeObject.setCoords();
 			this.handler.canvas.renderAll();
 			return true;

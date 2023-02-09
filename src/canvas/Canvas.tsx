@@ -51,7 +51,7 @@ class InternalCanvas extends Component<CanvasProps, IState> implements CanvasIns
 
 	componentDidMount() {
 		const { editable, canvasOption, width, height, responsive, ...other } = this.props;
-		const { id } = this.state;
+		const { id } = this.state;	
 		const mergedCanvasOption = Object.assign({}, defaults.canvasOption, canvasOption, {
 			width,
 			height,

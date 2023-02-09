@@ -14,6 +14,16 @@ export default {
 						initialValue: data.fill || 'rgba(0, 0, 0, 1)',
 					})(<ColorPicker />)}
 				</Form.Item>
+				{/* <Form.Item label={i18n.t('imagemap.style.fill-color')} colon={false}>
+					{getFieldDecorator(
+						'fill',
+						new fabric.Pattern({
+							source:
+								'https://img.freepik.com/premium-vector/pattern-geometric-line-circle-abstract-seamless-blue-line_60284-53.jpg?w=2000',
+							repeat: document.getElementById('repeat').value,
+						}),
+					)(<ColorPicker />)}
+				</Form.Item> */}
 				<Form.Item label={i18n.t('common.opacity')} colon={false}>
 					{getFieldDecorator('opacity', {
 						rules: [

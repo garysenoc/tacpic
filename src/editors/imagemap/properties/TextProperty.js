@@ -4,8 +4,30 @@ import sortBy from 'lodash/sortBy';
 
 import Icon from '../../../components/icon/Icon';
 import Fonts from '../../../components/font/fonts';
+import { useState } from 'react';
+import axios from 'axios';
+import br from 'braille';
 
 const fonts = Fonts.getFonts();
+
+// const [myData, setMyData] = useState(data.text);
+// const convertToBraille = async () => {
+// 	try {
+// 		axios
+// 			.post('/user', {
+// 				firstName: 'Fred',
+// 				lastName: 'Flintstone',
+// 			})
+// 			.then(function(response) {
+// 				console.log(response);
+// 			})
+// 			.catch(function(error) {
+// 				console.log(error);
+// 			});
+// 	} catch (err) {
+// 		console.error(err);
+// 	}
+// };
 
 export default {
 	render(canvasRef, form, data) {
@@ -48,6 +70,31 @@ export default {
 						)}
 					</Form.Item>
 				</Col>
+				<Col span={6}>
+					<Form.Item>
+						<button
+							onClick={() => {
+								data.text = br.toBraille(data.text);
+							}}
+						>
+							Text to Braille
+						</button>
+						{/* {data.text} */}
+					</Form.Item>
+				</Col>
+				<Col span={6}>
+					<Form.Item>
+						<button
+							onClick={() => {
+								data.text = br.toText(data.text);
+							}}
+						>
+							Braille to Text
+						</button>
+						{/* {data.text} */}
+					</Form.Item>
+				</Col>
+
 				<Col span={6}>
 					<Form.Item>
 						{getFieldDecorator('fontWeight', {

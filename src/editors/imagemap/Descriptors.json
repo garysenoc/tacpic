@@ -134,6 +134,19 @@
 				"height": 80,
 				"name": "New shape"
 			}
+		},
+		{
+			"name": "Star",
+			"description": "",
+			"type": "shape",
+			"icon": {
+				"prefix": "fas",
+				"name": "star"
+			},
+			"option": {
+				"type": "star",
+				"name": "New shape"
+			}
 		}
 	],
 	"DRAWING": [

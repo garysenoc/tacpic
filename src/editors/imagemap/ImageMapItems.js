@@ -97,7 +97,7 @@ class ImageMapItems extends Component {
 	/* eslint-disable react/sort-comp, react/prop-types */
 	handlers = {
 		onAddItem: (item, centered) => {
-			const { canvasRef } = this.props;
+			const { canvasRef, descriptors } = this.props;
 			if (canvasRef.handler.interactionMode === 'polygon') {
 				message.info('Already drawing');
 				return;
@@ -108,7 +108,39 @@ class ImageMapItems extends Component {
 				this.handlers.onSVGModalVisible(item.option);
 				return;
 			}
-			canvasRef.handler.add(option, centered);
+			if (option.type === 'star') {
+				const input = document.createElement('input');
+				input.type = 'file';
+
+				input.addEventListener('change', async () => {
+					const file = input.files[0];
+
+					const formData = new FormData();
+					formData.append('image', file, file.name);
+					formData.append('width', canvasRef.handler.workareaOption.workareaWidth);
+					formData.append('height', canvasRef.handler.workareaOption.workareaHeight);
+
+					const result = await fetch('http://localhost:8000/process_image', {
+						method: 'POST',
+						body: formData,
+					});
+
+					const _data = await result.json();
+					console.log('DATA: ', _data);
+					const points = Object.values(_data).map(value =>
+						value.map(points => ({ x: points[0], y: points[1] })),
+					);
+					console.log('POINTS: ', points);
+					for (const point of points) {
+						canvasRef.handler.add({ ...option, points: point }, false);
+					}
+					flag = false;
+				});
+
+				input.click();
+			} else {
+				canvasRef.handler.add(option, centered);
+			}
 		},
 		onAddSVG: (option, centered) => {
 			const { canvasRef } = this.props;

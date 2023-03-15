@@ -39,9 +39,17 @@ class Title extends Component<IProps> {
 	render() {
 		const { visible } = this.state;
 		return (
-			<Flex style={{ backgroundColor: '#F8CE46' }} flexWrap="wrap" flex="1" alignItems="center">
+			<Flex style={{ backgroundColor: '#1D1E20' }} flexWrap="wrap" flex="1" alignItems="center">
 				<Flex style={{ marginLeft: 8 }} flex="0 1 auto">
-					<span style={{ color: '#fff', fontSize: 24, fontWeight: 500 }}>TacPic</span>
+					<img
+						src="./images/sample/logo.png"
+						height={50}
+						width={50}
+						style={{ marginLeft: 10, marginTop: 2 }}
+					/>
+					<span style={{ color: '#fff', fontSize: 24, fontWeight: 500, marginTop: 10, marginLeft: 10 }}>
+						MOBBY
+					</span>
 					{/* <Tooltip title={i18next.t('action.go-github')} overlayStyle={{ fontSize: 16 }}>
 						<Button
 							className="rde-action-btn"

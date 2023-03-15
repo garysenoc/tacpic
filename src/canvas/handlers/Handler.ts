@@ -688,9 +688,11 @@ class Handler implements HandlerOptions {
 	 */
 	public centerObject = (obj: FabricObject, centered?: boolean) => {
 		if (centered) {
+			console.log('Center: ', centered);
 			this.canvas.centerObject(obj);
 			obj.setCoords();
 		} else {
+			console.log('Center: ', centered);
 			this.setByPartial(obj, {
 				left:
 					obj.left / this.canvas.getZoom() -
@@ -770,7 +772,14 @@ class Handler implements HandlerOptions {
 		} else {
 			this.stopRequestAnimFrame();
 		}
-		if (obj.superType !== 'drawing' && obj.superType !== 'link' && editable && !loaded) {
+		if (
+			obj.type !== 'test' &&
+			obj.type !== 'star' &&
+			obj.superType !== 'drawing' &&
+			obj.superType !== 'link' &&
+			editable &&
+			!loaded
+		) {
 			this.centerObject(createdObj, centered);
 		}
 		if (createdObj.superType === 'node') {

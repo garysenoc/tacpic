@@ -98,6 +98,9 @@ class ImageMapItems extends Component {
 	handlers = {
 		onAddItem: (item, centered) => {
 			const { canvasRef, descriptors } = this.props;
+			console.log('REF: ', canvasRef);
+			console.log('x,y', canvasRef.canvas._offset.left, canvasRef.canvas._offset.top);
+			console.log('HERE: ', canvasRef.canvas.getCenter());
 			if (canvasRef.handler.interactionMode === 'polygon') {
 				message.info('Already drawing');
 				return;
@@ -126,15 +129,16 @@ class ImageMapItems extends Component {
 					});
 
 					const _data = await result.json();
-					console.log('DATA: ', _data);
 					const points = Object.values(_data).map(value =>
-						value.map(points => ({ x: points[0], y: points[1] })),
+						value.map(points => ({
+							x: canvasRef.canvas._offset.left + points[0],
+							y: canvasRef.canvas._offset.top + points[1],
+						})),
 					);
-					console.log('POINTS: ', points);
+					// console.log('POINTS: ', JSON.stringify(points, null, 2));
 					for (const point of points) {
-						canvasRef.handler.add({ ...option, points: point }, false);
+						canvasRef.handler.add({ ...option, points: point, id: uuid() }, false);
 					}
-					flag = false;
 				});
 
 				input.click();

@@ -70,6 +70,32 @@
 				"name": "New gif",
 				"src": ""
 			}
+		},
+		{
+			"name": "Custom Polygons",
+			"description": "",
+			"type": "shape",
+			"icon": {
+				"prefix": "fas",
+				"name": "star"
+			},
+			"option": {
+				"type": "star",
+				"name": "New shape"
+			}
+		},
+		{
+			"name": "Text",
+			"description": "",
+			"type": "shape",
+			"icon": {
+				"prefix": "fas",
+				"name": "star"
+			},
+			"option": {
+				"type": "test",
+				"name": "New shape"
+			}
 		}
 	],
 	"SHAPE": [
@@ -132,19 +158,6 @@
 				"type": "cube",
 				"width": 80,
 				"height": 80,
-				"name": "New shape"
-			}
-		},
-		{
-			"name": "Star",
-			"description": "",
-			"type": "shape",
-			"icon": {
-				"prefix": "fas",
-				"name": "star"
-			},
-			"option": {
-				"type": "star",
 				"name": "New shape"
 			}
 		}

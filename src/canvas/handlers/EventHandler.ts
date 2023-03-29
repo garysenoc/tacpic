@@ -296,18 +296,22 @@ class EventHandler {
 			return false;
 		}
 		if (e.code === code.ARROW_UP) {
-			activeObject.set('top', activeObject.top - 2);
+			// activeObject.set('top', activeObject.top - 2);
+			console.log('up');
 			const pattern = new fabric.Pattern({
 				source: './images/sample/pattern2.png',
 				repeat: 'repeat',
 			});
 
 			activeObject.set('fill', pattern);
-			activeObject.setCoords();
+			// this.handler.canvas.bringToFront(this.object);
+			this.handler.canvas.requestRenderAll();
 			this.handler.canvas.renderAll();
-			return true;
+			activeObject.setCoords();
+
+			// return true;
 		} else if (e.code === code.ARROW_DOWN) {
-			activeObject.set('top', activeObject.top + 10);
+			// activeObject.set('top', activeObject.top + 10);
 
 			const pattern = new fabric.Pattern({
 				source: './images/sample/pattern1.png',
@@ -321,10 +325,12 @@ class EventHandler {
 			activeObject.setCoords();
 			// this.handler.canvas.renderAll();
 			this.handler.canvas.renderAll();
-			return true;
+			this.handler.canvas.requestRenderAll();
+
+			// return true;
 		} else if (e.code === code.ARROW_LEFT) {
-			activeObject.set('left', activeObject.left - 2);
-			activeObject.set('top', activeObject.top + 10);
+			// activeObject.set('left', activeObject.left - 2);
+			// activeObject.set('top', activeObject.top + 10);
 
 			const pattern = new fabric.Pattern({
 				source: './images/sample/pattern3.png',
@@ -334,16 +340,18 @@ class EventHandler {
 
 			activeObject.setCoords();
 			this.handler.canvas.renderAll();
-			return true;
+			// return true;
 		} else if (e.code === code.ARROW_RIGHT) {
-			activeObject.set('left', activeObject.left + 2);
+			// activeObject.set('left', activeObject.left + 2);
 			activeObject.setCoords();
 			this.handler.canvas.renderAll();
-			return true;
+			// return true;
 		}
 		if (this.handler.onModified) {
 			this.handler.onModified(activeObject);
 		}
+
+		this.handler.canvas.requestRenderAll();
 		return true;
 	};
 
@@ -731,6 +739,7 @@ class EventHandler {
 									...this.handler.activeSelectionOption,
 								});
 								this.handler.canvas.setActiveObject(activeSelection);
+
 								this.handler.canvas.requestRenderAll();
 							}
 							if (!this.handler.transactionHandler.active) {
@@ -824,6 +833,7 @@ class EventHandler {
 				this.handler.remove();
 			} else if (this.handler.shortcutHandler.isArrow(e)) {
 				this.arrowmoving(e);
+				this.handler.canvas.renderAll();
 			} else if (this.handler.shortcutHandler.isCtrlA(e)) {
 				e.preventDefault();
 				this.handler.selectAll();

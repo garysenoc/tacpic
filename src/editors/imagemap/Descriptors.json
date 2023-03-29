@@ -44,57 +44,482 @@
 		{
 			"name": "Image",
 			"description": "",
-			"type": "image",
+			"type": "shape",
 			"icon": {
 				"prefix": "fas",
 				"name": "image"
 			},
 			"option": {
-				"type": "image",
-				"name": "New image",
+				"type": "star",
+				"name": "New shape",
 				"src": "./images/sample/transparentBg.png"
 			}
 		},
 		{
-			"name": "GIF",
+			"name": "Label 1",
 			"description": "",
-			"type": "gif",
+			"type": "label1",
 			"icon": {
 				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
 				"name": "image"
 			},
 			"option": {
-				"type": "gif",
-				"width": 400,
-				"height": 400,
-				"name": "New gif",
-				"src": ""
+				"type": "label1",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+
+		{
+			"name": "Label 2",
+			"description": "",
+			"type": "label2",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label2",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
 			}
 		},
 		{
-			"name": "Custom Polygons",
+			"name": "Label 3",
 			"description": "",
-			"type": "shape",
+			"type": "label3",
 			"icon": {
 				"prefix": "fas",
-				"name": "star"
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
 			},
 			"option": {
-				"type": "star",
-				"name": "New shape"
+				"type": "label3",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
 			}
 		},
 		{
-			"name": "Text",
+			"name": "Label 4",
 			"description": "",
-			"type": "shape",
+			"type": "label4",
 			"icon": {
 				"prefix": "fas",
-				"name": "star"
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
 			},
 			"option": {
-				"type": "test",
-				"name": "New shape"
+				"type": "label4",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 5",
+			"description": "",
+			"type": "label5",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label5",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 6",
+			"description": "",
+			"type": "label6",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label6",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 7",
+			"description": "",
+			"type": "label7",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label7",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 8",
+			"description": "",
+			"type": "label8",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label8",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 9",
+			"description": "",
+			"type": "label9",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label9",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 10",
+			"description": "",
+			"type": "label10",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label10",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 11",
+			"description": "",
+			"type": "label11",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label11",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 12",
+			"description": "",
+			"type": "label12",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label12",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 13",
+			"description": "",
+			"type": "label13",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label13",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 14",
+			"description": "",
+			"type": "label14",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label14",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 15",
+			"description": "",
+			"type": "label15",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label15",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 16",
+			"description": "",
+			"type": "label16",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label16",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 17",
+			"description": "",
+			"type": "label17",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label17",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 18",
+			"description": "",
+			"type": "label18",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label18",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 19",
+			"description": "",
+			"type": "label19",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label19",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 20",
+			"description": "",
+			"type": "label20",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label20",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 21",
+			"description": "",
+			"type": "label21",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label21",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 22",
+			"description": "",
+			"type": "label22",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label22",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 23",
+			"description": "",
+			"type": "label23",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label23",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 24",
+			"description": "",
+			"type": "label24",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label24",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 25",
+			"description": "",
+			"type": "label25",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label25",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 26",
+			"description": "",
+			"type": "label26",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label26",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 27",
+			"description": "",
+			"type": "label27",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label27",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 28",
+			"description": "",
+			"type": "label28",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label28",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+
+		{
+			"name": "Label 29",
+			"description": "",
+			"type": "label29",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label29",
+				"name": "Hello",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 30",
+			"description": "",
+			"type": "label30",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label30",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Label 31",
+			"description": "",
+			"type": "label31",
+			"icon": {
+				"prefix": "fas",
+				"src": "/images/sample/pattern1.png",
+				"name": "image"
+			},
+			"option": {
+				"type": "label31",
+				"src": "/images/sample/pattern1.png",
+				"name": "Label 31"
 			}
 		}
 	],
@@ -156,6 +581,21 @@
 			},
 			"option": {
 				"type": "cube",
+				"width": 80,
+				"height": 80,
+				"name": "New shape"
+			}
+		},
+		{
+			"name": "Ga",
+			"description": "",
+			"type": "shape",
+			"icon": {
+				"prefix": "fas",
+				"name": "cube"
+			},
+			"option": {
+				"type": "hello",
 				"width": 80,
 				"height": 80,
 				"name": "New shape"

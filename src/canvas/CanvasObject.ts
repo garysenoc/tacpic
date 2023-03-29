@@ -75,6 +75,7 @@ const CanvasObject: CanvasObjectSchema = {
 			});
 		},
 	},
+
 	test: {
 		create: ({ points, ...option }: { points: any }) => {
 			return new fabric.Polygon(
@@ -112,6 +113,7 @@ const CanvasObject: CanvasObjectSchema = {
 	arrow: {
 		create: ({ points, ...option }: { points: any }) => new Arrow(points, option),
 	},
+
 	chart: {
 		create: (option: any) =>
 			new Chart(

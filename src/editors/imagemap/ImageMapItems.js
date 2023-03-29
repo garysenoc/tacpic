@@ -161,6 +161,9 @@ class ImageMapItems extends Component {
 				canvasRef.handler.drawingHandler.line.init();
 			} else if (item.option.type === 'arrow') {
 				canvasRef.handler.drawingHandler.arrow.init();
+			} else if (item.option.type === 'hello') {
+				// canvasRef.handler.drawingHandler.arrow.init();
+				alert('hello');
 			} else {
 				canvasRef.handler.drawingHandler.polygon.init();
 			}

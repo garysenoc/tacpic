@@ -750,7 +750,74 @@ class Handler implements HandlerOptions {
 		let createdObj;
 		// Create canvas object
 		if (obj.type === 'image') {
-			createdObj = this.addImage(newOption);
+			alert('label144');
+			createdObj = this.addImage2;
+			createdObj = this.addImage1(newOption);
+		} else if (obj.type === 'label1') {
+			createdObj = this.addImage1(newOption);
+		} else if (obj.type === 'label2') {
+			alert('label2');
+			createdObj = this.addImage2(newOption);
+		} else if (obj.type === 'label3') {
+			createdObj = this.addImage3(newOption);
+		} else if (obj.type === 'label4') {
+			createdObj = this.addImage4(newOption);
+		} else if (obj.type === 'label5') {
+			createdObj = this.addImage5(newOption);
+		} else if (obj.type === 'label6') {
+			createdObj = this.addImage6(newOption);
+		} else if (obj.type === 'label7') {
+			createdObj = this.addImage7(newOption);
+		} else if (obj.type === 'label8') {
+			createdObj = this.addImage8(newOption);
+		} else if (obj.type === 'label9') {
+			createdObj = this.addImage9(newOption);
+		} else if (obj.type === 'label9') {
+			createdObj = this.addImage9(newOption);
+		} else if (obj.type === 'label10') {
+			createdObj = this.addImage10(newOption);
+		} else if (obj.type === 'label11') {
+			createdObj = this.addImage11(newOption);
+		} else if (obj.type === 'label12') {
+			createdObj = this.addImage12(newOption);
+		} else if (obj.type === 'label13') {
+			createdObj = this.addImage13(newOption);
+		} else if (obj.type === 'label14') {
+			createdObj = this.addImage14(newOption);
+		} else if (obj.type === 'label15') {
+			createdObj = this.addImage15(newOption);
+		} else if (obj.type === 'label16') {
+			createdObj = this.addImage16(newOption);
+		} else if (obj.type === 'label17') {
+			createdObj = this.addImage17(newOption);
+		} else if (obj.type === 'label18') {
+			createdObj = this.addImage18(newOption);
+		} else if (obj.type === 'label19') {
+			createdObj = this.addImage19(newOption);
+		} else if (obj.type === 'label20') {
+			createdObj = this.addImage20(newOption);
+		} else if (obj.type === 'label21') {
+			createdObj = this.addImage21(newOption);
+		} else if (obj.type === 'label22') {
+			createdObj = this.addImage22(newOption);
+		} else if (obj.type === 'label23') {
+			createdObj = this.addImage23(newOption);
+		} else if (obj.type === 'label24') {
+			createdObj = this.addImage24(newOption);
+		} else if (obj.type === 'label25') {
+			createdObj = this.addImage25(newOption);
+		} else if (obj.type === 'label26') {
+			createdObj = this.addImage26(newOption);
+		} else if (obj.type === 'label27') {
+			createdObj = this.addImage27(newOption);
+		} else if (obj.type === 'label28') {
+			createdObj = this.addImage28(newOption);
+		} else if (obj.type === 'label29') {
+			createdObj = this.addImage29(newOption);
+		} else if (obj.type === 'label30') {
+			createdObj = this.addImage30(newOption);
+		} else if (obj.type === 'label31') {
+			createdObj = this.addImage31(newOption);
 		} else if (obj.type === 'group') {
 			createdObj = this.addGroup(newOption);
 		} else {
@@ -827,13 +894,31 @@ class Handler implements HandlerOptions {
 	 * @param {FabricImage} obj
 	 * @returns
 	 */
-	public addImage = (obj: FabricImage) => {
+	// public addImage = (obj: FabricImage) => {
+	// 	const { objectOption } = this;
+	// 	const { filters = [], src, file, ...otherOption } = obj;
+	// 	const image = new Image();
+	// 	// if (typeof src === 'string') {
+	// 	// 	image.src = src;
+	// 	// }
+	// 	const createdObj = new fabric.Image(image, {
+	// 		...objectOption,
+	// 		...otherOption,
+	// 	}) as FabricImage;
+	// 	createdObj.set({
+	// 		filters: this.imageHandler.createFilters(filters),
+	// 	});
+	// 	this.setImage(createdObj, src || file);
+	// 	return createdObj;
+	// };
+
+	public addImage1 = (obj: FabricImage) => {
 		const { objectOption } = this;
 		const { filters = [], src, file, ...otherOption } = obj;
 		const image = new Image();
-		// if (typeof src === 'string') {
-		// 	image.src = src;
-		// }
+
+		console.log(image);
+
 		const createdObj = new fabric.Image(image, {
 			...objectOption,
 			...otherOption,
@@ -841,7 +926,553 @@ class Handler implements HandlerOptions {
 		createdObj.set({
 			filters: this.imageHandler.createFilters(filters),
 		});
-		this.setImage(createdObj, src || file);
+		this.setImage(createdObj, '/LABELS/png/1.png' || file);
+		return createdObj;
+	};
+
+	public addImage2 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/2.png' || file);
+		return createdObj;
+	};
+	public addImage3 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/3.png' || file);
+		return createdObj;
+	};
+
+	public addImage4 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/4.png' || file);
+		return createdObj;
+	};
+
+	public addImage5 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/5.png' || file);
+		return createdObj;
+	};
+
+	public addImage6 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/6.png' || file);
+		return createdObj;
+	};
+
+	public addImage7 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/7.png' || file);
+		return createdObj;
+	};
+
+	public addImage8 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/8.png' || file);
+		return createdObj;
+	};
+
+	public addImage9 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/9.png' || file);
+		return createdObj;
+	};
+
+	public addImage10 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/10.png' || file);
+		return createdObj;
+	};
+
+	public addImage11 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/11.png' || file);
+		return createdObj;
+	};
+
+	public addImage12 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/12.png' || file);
+		return createdObj;
+	};
+
+	public addImage13 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/13.png' || file);
+		return createdObj;
+	};
+
+	public addImage14 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/14.png' || file);
+		return createdObj;
+	};
+
+	public addImage15 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/15.png' || file);
+		return createdObj;
+	};
+
+	public addImage16 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/16.png' || file);
+		return createdObj;
+	};
+
+	public addImage17 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/17.png' || file);
+		return createdObj;
+	};
+
+	public addImage18 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/18.png' || file);
+		return createdObj;
+	};
+
+	public addImage19 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/19.png' || file);
+		return createdObj;
+	};
+
+	public addImage20 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/20.png' || file);
+		return createdObj;
+	};
+
+	public addImage21 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/21.png' || file);
+		return createdObj;
+	};
+
+	public addImage22 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/22.png' || file);
+		return createdObj;
+	};
+
+	public addImage23 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/23.png' || file);
+		return createdObj;
+	};
+
+	public addImage24 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		this.setImage(createdObj, '/LABELS/png/24.png' || file);
+		return createdObj;
+	};
+
+	public addImage25 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		// this.setImage(createdObj, '/images/sample/pattern1.png' || file);
+		this.setImage(createdObj, '/LABELS/png/25.png' || file);
+		return createdObj;
+	};
+
+	public addImage26 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		// this.setImage(createdObj, '/images/sample/pattern1.png' || file);
+		this.setImage(createdObj, '/LABELS/png/26.png' || file);
+		return createdObj;
+	};
+
+	public addImage27 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		// this.setImage(createdObj, '/images/sample/pattern1.png' || file);
+		this.setImage(createdObj, '/LABELS/png/27.png' || file);
+		return createdObj;
+	};
+
+	public addImage28 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		// this.setImage(createdObj, '/images/sample/pattern1.png' || file);
+		this.setImage(createdObj, '/LABELS/png/28.png' || file);
+		return createdObj;
+	};
+
+	public addImage29 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		// this.setImage(createdObj, '/images/sample/pattern1.png' || file);
+		this.setImage(createdObj, '/LABELS/png/29.png' || file);
+		return createdObj;
+	};
+
+	public addImage30 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		// this.setImage(createdObj, '/images/sample/pattern1.png' || file);
+		this.setImage(createdObj, '/LABELS/png/30.png' || file);
+		return createdObj;
+	};
+
+	public addImage31 = (obj: FabricImage) => {
+		const { objectOption } = this;
+		const { filters = [], src, file, ...otherOption } = obj;
+		const image = new Image();
+
+		console.log(image);
+
+		const createdObj = new fabric.Image(image, {
+			...objectOption,
+			...otherOption,
+		}) as FabricImage;
+		createdObj.set({
+			filters: this.imageHandler.createFilters(filters),
+		});
+		// this.setImage(createdObj, '/images/sample/pattern1.png' || file);
+		this.setImage(createdObj, '/LABELS/png/31.png' || file);
 		return createdObj;
 	};
 
@@ -1592,6 +2223,8 @@ class Handler implements HandlerOptions {
 	 */
 	public toGroup = (target?: FabricObject) => {
 		const activeObject = target || (this.canvas.getActiveObject() as fabric.ActiveSelection);
+
+		console.log('group');
 		if (!activeObject) {
 			return null;
 		}

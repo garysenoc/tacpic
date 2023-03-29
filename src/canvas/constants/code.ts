@@ -4,6 +4,7 @@ export const BACKSPACE = 'Backspace';
 export const EQUAL = 'Equal';
 export const MINUS = 'Minus';
 export const KEY_A = 'KeyA';
+export const KEY_1 = 'Key1';
 export const KEY_Q = 'KeyQ';
 export const KEY_W = 'KeyW';
 export const KEY_C = 'KeyC';

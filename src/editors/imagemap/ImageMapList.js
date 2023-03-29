@@ -69,6 +69,9 @@ class ImageMapList extends Component {
 							icon = 'map-marker-alt';
 						} else if (obj.type === 'textbox') {
 							icon = 'font';
+						} else if (obj.type === 'hello') {
+							createdObj = this.addImage1(newOption);
+							alert('Hello world1');
 						} else if (obj.type === 'image') {
 							icon = 'image';
 						} else if (obj.type === 'triangle') {

@@ -756,7 +756,6 @@ class Handler implements HandlerOptions {
 		} else if (obj.type === 'label1') {
 			createdObj = this.addImage1(newOption);
 		} else if (obj.type === 'label2') {
-			alert('label2');
 			createdObj = this.addImage2(newOption);
 		} else if (obj.type === 'label3') {
 			createdObj = this.addImage3(newOption);

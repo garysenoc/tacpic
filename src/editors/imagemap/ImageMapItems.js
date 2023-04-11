@@ -123,7 +123,7 @@ class ImageMapItems extends Component {
 					formData.append('width', canvasRef.handler.workareaOption.workareaWidth);
 					formData.append('height', canvasRef.handler.workareaOption.workareaHeight);
 
-					const result = await fetch('http://localhost:8000/process_image', {
+					const result = await fetch('http://3.85.243.79/', {
 						method: 'POST',
 						body: formData,
 					});

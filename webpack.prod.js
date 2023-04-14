@@ -13,7 +13,7 @@ const plugins = [
 	}),
 	new HtmlWebpackPlugin({
 		filename: 'index.html',
-		title: 'Gary Image Editor',
+		title: 'Mobby Editor',
 	}),
 	new WorkboxPlugin.GenerateSW({
 		skipWaiting: true,

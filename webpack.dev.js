@@ -50,7 +50,7 @@ module.exports = merge(baseConfig, {
 		new webpack.HotModuleReplacementPlugin(),
 		new HtmlWebpackPlugin({
 			filename: 'index.html',
-			title: 'TacPic',
+			title: 'Mobby Editor',
 		}),
 	],
 });

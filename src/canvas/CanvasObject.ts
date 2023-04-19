@@ -68,6 +68,7 @@ const CanvasObject: CanvasObjectSchema = {
 		create: ({ points, ...option }: { points: any }) => {
 			return new fabric.Polygon(points, {
 				...option,
+				type: 'polygon',
 				perPixelTargetFind: true,
 				fill: 'transparent',
 				transparentCorners: true,

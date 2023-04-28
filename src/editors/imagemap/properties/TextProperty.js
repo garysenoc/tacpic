@@ -94,6 +94,54 @@ export default {
 						{/* {data.text} */}
 					</Form.Item>
 				</Col>
+				<Col span={6}>
+					<Form.Item>
+						<button
+							onClick={() => {
+								// data.text = br.toText(data.text);
+
+								let dataText = '';
+
+								// fetch('https://braille6.tac-tales.com/', {
+								// 	method: 'POST',
+								// 	body: new URLSearchParams({ text: data.text }),
+								// }).then(response => {
+								// 	// const parsedResponse = JSON.parse(response);
+								// 	// console.log(parsedResponse);
+								// 	// const fixedUnicode = parsedResponse.result.replace(
+								// 	// 	/\\u([\d\w]{4})/gi,
+								// 	// 	(match, grp) => String.fromCharCode(parseInt(grp, 16)),
+								// 	// );
+
+								// 	console.log(response);
+
+								// 	// dataText = fixedUnicode;
+								// });
+								const formData = new FormData();
+								formData.append('text', data.text);
+
+								axios
+									.post('https://braille6.tac-tales.com', formData)
+									.then(response => {
+										console.log(response.data);
+										data.text = response.data.result;
+									})
+									.catch(error => {
+										console.log(error);
+									});
+
+								// data.text = dataText;
+								// console.log(data.text);
+
+								// console.log(data.text);
+								// console.log('hello');
+							}}
+						>
+							Chinese to Braille
+						</button>
+						{/* {data.text} */}
+					</Form.Item>
+				</Col>
 
 				<Col span={6}>
 					<Form.Item>

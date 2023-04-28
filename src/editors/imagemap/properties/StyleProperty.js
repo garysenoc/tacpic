@@ -4,6 +4,23 @@ import i18n from 'i18next';
 
 import ColorPicker from '../../../components/common/ColorPicker';
 
+const options = [
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './images/sample/pattern1.png',
+	},
+	{
+		label: 'Option 2',
+		value: '2',
+		imageSrc: './images/sample/pattern2.png',
+	},
+	{
+		label: 'Option 3',
+		value: '3',
+		imageSrc: './images/sample/pattern3.png',
+	},
+];
 export default {
 	render(canvasRef, form, data) {
 		const { getFieldDecorator } = form;
@@ -54,6 +71,29 @@ export default {
 									</Select.Option>
 								);
 							})}
+						</Select>,
+					)}
+				</Form.Item>
+				<Form.Item label={'Texture'} colon={false}>
+					{getFieldDecorator('fill', {
+						initialValue: options[0].imageSrc || './images/sample/pattern2.png',
+					})(
+						<Select
+							showSearch
+							style={{ width: '100%' }}
+							optionFilterProp="label"
+							filterOption={(input, option) =>
+								option.props.label.toLowerCase().indexOf(input.toLowerCase()) >= 0
+							}
+							renderOption={option => (
+								<img src={option.imageSrc} alt={option.label} width={'100%'} height={'20%'} />
+							)}
+						>
+							{options.map(option => (
+								<Option key={option.value} value={option.value} label={option.label}>
+									<img src={option.imageSrc} alt={option.label} width={'100%'} height={'20%'} />
+								</Option>
+							))}
 						</Select>,
 					)}
 				</Form.Item>

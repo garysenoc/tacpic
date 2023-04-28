@@ -17,6 +17,7 @@
 			"fill-color": "Fill Color",
 			"stroke-color": "Stroke Color",
 			"stroke-width": "Stroke Width",
+			
 			"rx": "Radius x",
 			"ry": "Radius y"
 		},

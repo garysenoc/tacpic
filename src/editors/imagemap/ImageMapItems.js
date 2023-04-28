@@ -123,7 +123,7 @@ class ImageMapItems extends Component {
 					formData.append('width', canvasRef.handler.workareaOption.workareaWidth);
 					formData.append('height', canvasRef.handler.workareaOption.workareaHeight);
 
-					const result = await fetch(' http://segmentation.tac-tales.com', {
+					const result = await fetch(' https://segmentation.tac-tales.com', {
 						method: 'POST',
 						body: formData,
 					});

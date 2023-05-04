@@ -2423,7 +2423,8 @@ class Handler implements HandlerOptions {
 		if (dataUrl) {
 			const anchorEl = document.createElement('a');
 			anchorEl.href = dataUrl;
-			anchorEl.download = `${option.name}.png`;
+			anchorEl.download = `${option.name}.svg`;
+			console.log('downloading1');
 			document.body.appendChild(anchorEl);
 			anchorEl.click();
 			anchorEl.remove();
@@ -2454,6 +2455,7 @@ class Handler implements HandlerOptions {
 			anchorEl.href = dataUrl;
 			anchorEl.download = `${option.name}.png`;
 			document.body.appendChild(anchorEl);
+			console.log('donwloading');
 			anchorEl.click();
 			anchorEl.remove();
 		}

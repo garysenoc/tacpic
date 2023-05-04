@@ -23,7 +23,7 @@ const options = [
 ];
 export default {
 	render(canvasRef, form, data) {
-		const { getFieldDecorator } = form;
+		const { getFieldDecorator, setFields, setFieldsValue } = form;
 		return (
 			<React.Fragment>
 				<Form.Item label={i18n.t('imagemap.style.fill-color')} colon={false}>
@@ -75,27 +75,42 @@ export default {
 					)}
 				</Form.Item>
 				<Form.Item label={'Texture'} colon={false}>
-					{getFieldDecorator('fill', {
-						initialValue: options[0].imageSrc || './images/sample/pattern2.png',
-					})(
-						<Select
-							showSearch
-							style={{ width: '100%' }}
-							optionFilterProp="label"
-							filterOption={(input, option) =>
-								option.props.label.toLowerCase().indexOf(input.toLowerCase()) >= 0
-							}
-							renderOption={option => (
-								<img src={option.imageSrc} alt={option.label} width={'100%'} height={'20%'} />
-							)}
-						>
-							{options.map(option => (
-								<Option key={option.value} value={option.value} label={option.label}>
-									<img src={option.imageSrc} alt={option.label} width={'100%'} height={'20%'} />
-								</Option>
-							))}
-						</Select>,
-					)}
+					{/* {getFieldDecorator('fill', {
+						initialValue: 'None',
+					})( */}
+					<Select
+						showSearch
+						style={{ width: '100%' }}
+						placeholder="None"
+						// optionFilterProp="value"
+						// filterOption={(input, option) =>
+						// 	option.props.label.toLowerCase().indexOf(input.toLowerCase()) >= 0
+						// }
+						onSelect={value => {
+							const activeObject = canvasRef.canvas.getActiveObject();
+							console.log('activeObject', activeObject);
+
+							activeObject.set('fill', 'rgba(0, 0, 0, 1)');
+							const pattern = new fabric.Pattern({
+								source: value,
+								repeat: 'repeat',
+							});
+
+							activeObject.set('fill', pattern);
+							// canvasRef.handler.transactionHandler.save('scaled');
+							// canvasRef.handler.canvas.requestRenderAll();
+							// canvasRef.handler.canvas.setActiveObject(canvasRef.handler.canvas);
+
+							canvasRef.handler.canvas.renderAll.bind(canvasRef);
+						}}
+					>
+						{options.map(option => (
+							<Option key={option.value} value={option.imageSrc} label={option.label}>
+								<img src={option.imageSrc} alt={option.label} width={'20px'} height={'20px'} />
+							</Option>
+						))}
+					</Select>
+					{/* )} */}
 				</Form.Item>
 				{data.type === 'rect' ? (
 					<Row gutter={8}>

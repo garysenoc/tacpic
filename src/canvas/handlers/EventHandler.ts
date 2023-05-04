@@ -118,6 +118,7 @@ class EventHandler {
 		 * @param {FabricEvent} opt
 		 */
 		mousedown: (opt: FabricEvent) => {
+			console.log('mousedown 0');
 			const { target } = opt;
 			if (target && target.link && target.link.enabled) {
 				const { onClick } = this.handler;
@@ -251,6 +252,7 @@ class EventHandler {
 	 */
 	public scaled = (_opt: FabricEvent) => {
 		if (!this.handler.transactionHandler.active) {
+			console.log('inhere');
 			this.handler.transactionHandler.save('scaled');
 		}
 	};
@@ -297,7 +299,7 @@ class EventHandler {
 		}
 		if (e.code === code.ARROW_UP) {
 			// activeObject.set('top', activeObject.top - 2);
-			console.log('up');
+			console.log('up: ', activeObject);
 			const pattern = new fabric.Pattern({
 				source: './images/sample/pattern2.png',
 				repeat: 'repeat',
@@ -389,6 +391,7 @@ class EventHandler {
 	 * @returns
 	 */
 	public mousedown = (opt: FabricEvent) => {
+		console.log('mousedown');
 		const event = opt as FabricEvent<MouseEvent>;
 		const { editable } = this.handler;
 		if (event.e.altKey && editable && !this.handler.interactionHandler.isDrawingMode()) {
@@ -525,9 +528,11 @@ class EventHandler {
 	 * @returns
 	 */
 	public mouseup = (opt: FabricEvent) => {
+		console.log('mouseup');
 		const event = opt as FabricEvent<MouseEvent>;
 		if (this.handler.interactionMode === 'grab') {
 			this.panning = false;
+			console.log('early return');
 			return;
 		}
 		const { target, e } = event;
@@ -543,13 +548,16 @@ class EventHandler {
 				});
 				this.handler.canvas.setActiveObject(activeSelection);
 				this.handler.canvas.requestRenderAll();
+				console.log('nested');
 			}
 		}
 		if (this.handler.editable && this.handler.guidelineOption.enabled) {
 			this.handler.guidelineHandler.verticalLines.length = 0;
 			this.handler.guidelineHandler.horizontalLines.length = 0;
+			console.log('thisnuts');
 		}
 		this.handler.canvas.renderAll();
+		console.log('finished');
 	};
 
 	/**
@@ -876,6 +884,7 @@ class EventHandler {
 	 * @param {KeyboardEvent} _e
 	 */
 	public keyup = (e: KeyboardEvent) => {
+		console.log('keyup event');
 		if (this.handler.interactionHandler.isDrawingMode()) {
 			return;
 		}
@@ -907,6 +916,7 @@ class EventHandler {
 	 * @param {MouseEvent} _e
 	 */
 	public onmousedown = (_e: MouseEvent) => {
+		console.log('onmousedown');
 		this.handler.contextmenuHandler.hide();
 	};
 }

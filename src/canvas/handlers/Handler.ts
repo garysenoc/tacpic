@@ -2409,7 +2409,7 @@ class Handler implements HandlerOptions {
 	 * @param {FabricObject} targetObject
 	 * @param {string} [option={ name: 'New Image', format: 'png', quality: 1 }]
 	 */
-	public saveImage = (targetObject: FabricObject, option = { name: 'New Image', format: 'png', quality: 1 }) => {
+	public saveImage = (targetObject: FabricObject, option = { name: 'New Image12', format: 'png', quality: 1 }) => {
 		let dataUrl;
 		let target = targetObject;
 		if (target) {
@@ -2423,7 +2423,7 @@ class Handler implements HandlerOptions {
 		if (dataUrl) {
 			const anchorEl = document.createElement('a');
 			anchorEl.href = dataUrl;
-			anchorEl.download = `${option.name}.svg`;
+			anchorEl.download = `${option.name}.png`;
 			console.log('downloading1');
 			document.body.appendChild(anchorEl);
 			anchorEl.click();

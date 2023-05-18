@@ -123,443 +123,443 @@
 				"name": "New arrow"
 			}
 		}
+	],
+	"ICONS": [
+		{
+			"name": "Fire hose",
+			"description": "",
+			"type": "label1",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label1",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+
+		{
+			"name": "Fire hydrant box",
+			"description": "",
+			"type": "label2",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label2",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Fire water outlet",
+			"description": "",
+			"type": "label3",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label3",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Test outlet",
+			"description": "",
+			"type": "label4",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label4",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Automatic alarm check valve",
+			"description": "",
+			"type": "label5",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label5",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Inspection tube",
+			"description": "",
+			"type": "label6",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label6",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Automatic sprinkler",
+			"description": "",
+			"type": "label7",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label7",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Water mist automatic sprinkler head",
+			"description": "",
+			"type": "label8",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label8",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Foam Automatic Sprinkler",
+			"description": "",
+			"type": "label9",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label9",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Automatic sprinkler hose",
+			"description": "",
+			"type": "label10",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label10",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Automatic sprinkler outlet",
+			"description": "",
+			"type": "label11",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label11",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Automatic sprinkler credit switchboard",
+			"description": "",
+			"type": "label12",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label12",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Fire alarm switchboard",
+			"description": "",
+			"type": "label13",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label13",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Manual alarm",
+			"description": "",
+			"type": "label14",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label14",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Fire alarm bell",
+			"description": "",
+			"type": "label15",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label15",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Warning light",
+			"description": "",
+			"type": "label16",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label16",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Comprehensive disk",
+			"description": "",
+			"type": "label17",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label17",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Constant temperature fire detector",
+			"description": "",
+			"type": "label18",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label18",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Differential fire detector",
+			"description": "",
+			"type": "label19",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label19",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Smoke detection type fire detector",
+			"description": "",
+			"type": "label20",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label20",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Emergency power outlet",
+			"description": "",
+			"type": "label21",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label21",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Fire alarm system pipeline",
+			"description": "",
+			"type": "label22",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label22",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Alarm sender",
+			"description": "",
+			"type": "label23",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label23",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Speaker",
+			"description": "",
+			"type": "label24",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label24",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Broadcast pipeline",
+			"description": "",
+			"type": "label25",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label25",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Exit lights",
+			"description": "",
+			"type": "label26",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label26",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Evacuation direction indicator",
+			"description": "",
+			"type": "label27",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label27",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Emergency lights",
+			"description": "",
+			"type": "label28",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label28",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+
+		{
+			"name": "Smoke exhaust equipment",
+			"description": "",
+			"type": "label29",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label29",
+				"name": "Hello",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Smoke exhaust equipment air inlet",
+			"description": "",
+			"type": "label30",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label30",
+				"name": "New image",
+				"src": "/images/sample/pattern1.png"
+			}
+		},
+		{
+			"name": "Fire extinguisher",
+			"description": "",
+			"type": "label31",
+			"icon": {
+				"prefix": "fas",
+				"name": "image"
+			},
+			"option": {
+				"type": "label31",
+				"src": "/images/sample/pattern1.png",
+				"name": "Label 31"
+			}
+		}
 	]
 }
-// "ICONS": [
-// 	{
-// 		"name": "Fire hose",
-// 		"description": "",
-// 		"type": "label1",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label1",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-
-// 	{
-// 		"name": "Fire hydrant box",
-// 		"description": "",
-// 		"type": "label2",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label2",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Fire water outlet",
-// 		"description": "",
-// 		"type": "label3",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label3",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Test outlet",
-// 		"description": "",
-// 		"type": "label4",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label4",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Automatic alarm check valve",
-// 		"description": "",
-// 		"type": "label5",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label5",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Inspection tube",
-// 		"description": "",
-// 		"type": "label6",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label6",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Automatic sprinkler",
-// 		"description": "",
-// 		"type": "label7",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label7",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Water mist automatic sprinkler head",
-// 		"description": "",
-// 		"type": "label8",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label8",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Foam Automatic Sprinkler",
-// 		"description": "",
-// 		"type": "label9",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label9",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Automatic sprinkler hose",
-// 		"description": "",
-// 		"type": "label10",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label10",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Automatic sprinkler outlet",
-// 		"description": "",
-// 		"type": "label11",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label11",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Automatic sprinkler credit switchboard",
-// 		"description": "",
-// 		"type": "label12",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label12",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Fire alarm switchboard",
-// 		"description": "",
-// 		"type": "label13",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label13",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Manual alarm",
-// 		"description": "",
-// 		"type": "label14",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label14",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Fire alarm bell",
-// 		"description": "",
-// 		"type": "label15",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label15",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Warning light",
-// 		"description": "",
-// 		"type": "label16",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label16",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Comprehensive disk",
-// 		"description": "",
-// 		"type": "label17",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label17",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Constant temperature fire detector",
-// 		"description": "",
-// 		"type": "label18",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label18",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Differential fire detector",
-// 		"description": "",
-// 		"type": "label19",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label19",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Smoke detection type fire detector",
-// 		"description": "",
-// 		"type": "label20",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label20",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Emergency power outlet",
-// 		"description": "",
-// 		"type": "label21",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label21",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Fire alarm system pipeline",
-// 		"description": "",
-// 		"type": "label22",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label22",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Alarm sender",
-// 		"description": "",
-// 		"type": "label23",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label23",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Speaker",
-// 		"description": "",
-// 		"type": "label24",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label24",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Broadcast pipeline",
-// 		"description": "",
-// 		"type": "label25",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label25",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Exit lights",
-// 		"description": "",
-// 		"type": "label26",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label26",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Evacuation direction indicator",
-// 		"description": "",
-// 		"type": "label27",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label27",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Emergency lights",
-// 		"description": "",
-// 		"type": "label28",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label28",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-
-// 	{
-// 		"name": "Smoke exhaust equipment",
-// 		"description": "",
-// 		"type": "label29",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label29",
-// 			"name": "Hello",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Smoke exhaust equipment air inlet",
-// 		"description": "",
-// 		"type": "label30",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label30",
-// 			"name": "New image",
-// 			"src": "/images/sample/pattern1.png"
-// 		}
-// 	},
-// 	{
-// 		"name": "Fire extinguisher",
-// 		"description": "",
-// 		"type": "label31",
-// 		"icon": {
-// 			"prefix": "fas",
-// 			"name": "image"
-// 		},
-// 		"option": {
-// 			"type": "label31",
-// 			"src": "/images/sample/pattern1.png",
-// 			"name": "Label 31"
-// 		}
-// 	}
-// ]

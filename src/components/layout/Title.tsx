@@ -41,15 +41,12 @@ class Title extends Component<IProps> {
 		return (
 			<Flex style={{ backgroundColor: '#F8F9F9' }} flexWrap="wrap" flex="1" alignItems="center">
 				<Flex style={{ marginLeft: 8 }} flex="0 1 auto">
-					<img
-						src="./images/sample/logo.png"
-						height={35}
-						width={35}
-						style={{ marginLeft: 10, marginTop: 2 }}
-					/>
-					<span style={{ color: '#6D6967', fontSize: 16, fontWeight: 400, marginTop: 8, marginLeft: 15 }}>
-						MOBBY
-					</span>
+					<img src="./images/sample/logo1.png" height={40} style={{ marginLeft: 10, marginTop: 2 }} />
+					<img src="./images/sample/logo.png" height={40} style={{ marginLeft: 10, marginTop: 2 }} />
+
+					{/* <span style={{ color: '#6D6967', fontSize: 16, fontWeight: 400, marginTop: 8, marginLeft: 15 }}>
+							Mobby
+						</span> */}
 					{/* <Tooltip title={i18next.t('action.go-github')} overlayStyle={{ fontSize: 16 }}>
 						<Button
 							className="rde-action-btn"

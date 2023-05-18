@@ -139,7 +139,7 @@ class ImageMapHeaderToolbar extends Component {
 						shape="circle"
 						disabled={isCropping}
 						onClick={() => canvasRef.handler?.saveImage()}
-						icon="image"
+						icon="download"
 						tooltipTitle={i18n.t('action.image-save')}
 					/>
 					<CommonButton

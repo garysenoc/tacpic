@@ -8,6 +8,27 @@ const options = [
 	{
 		label: 'Option 1',
 		value: '1',
+		imageSrc: './images/sample/pattern1.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './images/sample/pattern2.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './images/sample/pattern3.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './images/sample/pattern4.png',
+	},
+
+	{
+		label: 'Option 1',
+		value: '1',
 		imageSrc: './TEXTURE/png/p1.png',
 	},
 	{

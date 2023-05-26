@@ -19,6 +19,7 @@ const antResources = {
 const root = document.createElement('div');
 root.id = 'root';
 document.body.appendChild(root);
+window.document.domain = 'tac-tales.com';
 
 const render = Component => {
 	const rootElement = document.getElementById('root');

@@ -8,22 +8,107 @@ const options = [
 	{
 		label: 'Option 1',
 		value: '1',
-		imageSrc: './images/sample/pattern1.png',
+		imageSrc: './TEXTURE/png/1.png',
 	},
 	{
 		label: 'Option 1',
 		value: '1',
-		imageSrc: './images/sample/pattern2.png',
+		imageSrc: './TEXTURE/png/2.png',
 	},
 	{
 		label: 'Option 1',
 		value: '1',
-		imageSrc: './images/sample/pattern3.png',
+		imageSrc: './TEXTURE/png/3.png',
 	},
 	{
 		label: 'Option 1',
 		value: '1',
-		imageSrc: './images/sample/pattern4.png',
+		imageSrc: './TEXTURE/png/4.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/5.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/6.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/7.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/8.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/9.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/10.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/11.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/12.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/13.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/14.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/15.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/16.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/17.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/18.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/19.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/20.png',
+	},
+	{
+		label: 'Option 1',
+		value: '1',
+		imageSrc: './TEXTURE/png/21.png',
 	},
 ];
 export default {

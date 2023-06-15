@@ -45,8 +45,11 @@ class App extends Component<any, IState> {
 					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 					<meta name="description" content="Mobby Editor" />
 					<link rel="manifest" href="./manifest.json" />
-					<link rel="shortcut icon" href="./favicon.ico" />
+					<link rel="shortcut icon" href="./stust.ico" />
+
 					<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" />
+					<link rel="icon" href="./stust.ico" />
+
 					{/* <title>Gary Image Editor</title> */}
 					{/* <script async={true} src="https://www.googletagmanager.com/gtag/js?id=UA-97485289-3" />
 					<script>

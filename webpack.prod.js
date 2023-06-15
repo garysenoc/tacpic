@@ -13,7 +13,7 @@ const plugins = [
 	}),
 	new HtmlWebpackPlugin({
 		filename: 'index.html',
-		title: 'Mobby Editor',
+		title: 'Tac-Tales',
 	}),
 	new WorkboxPlugin.GenerateSW({
 		skipWaiting: true,

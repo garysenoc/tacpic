@@ -43,7 +43,7 @@ class App extends Component<any, IState> {
 				<Helmet>
 					<meta charSet="utf-8" />
 					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-					<meta name="description" content="Mobby Editor" />
+					<meta name="description" content="Tac-Tales" />
 					<link rel="manifest" href="./manifest.json" />
 					<link rel="shortcut icon" href="./stust.ico" />
 
